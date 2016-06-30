@@ -1,0 +1,18 @@
+# Update path to include some utilities
+#if [ -d $HOME/.hdfs_bin ]; then
+#   PATH=$PATH:$HOME/.hdfs_bin
+#   export PATH
+#fi
+
+# HDFS aliases beaoutch
+alias hcp='hdfs dfs -cp '
+alias hfs='hdfs dfs '
+alias hls='hdfs dfs -ls '
+alias hmv='hdfs dfs -mv '
+alias hrm='hdfs dfs -rm -f -skipTrash '
+alias hcat='hdfs dfs -cat '
+alias hget='hdfs dfs -get '
+alias hput='hdfs dfs -put '
+alias hrmr='hdfs dfs -rm -R -f -skipTrash '
+alias htext='hdfs dfs -text '
+alias hmkdir='hdfs dfs -mkdir '
